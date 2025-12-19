@@ -377,7 +377,7 @@ export default {
       ingredients.value = ingredientSource
 
       try {
-        const API_URL = 'http://18.139.200.231:3000/api/recipes'
+        const API_URL = `${import.meta.env.VITE_API_URL}/api/recipes`
         const resp = await axios.get(API_URL, {
           params: {
             ingredients: ingredients.value,
@@ -454,7 +454,7 @@ export default {
         // Build a clear prompt for the LLM to return a short list of ingredients
         const promptText = `You are a helpful assistant. Given the user's request: "${userPrompt.value.trim()}". Reply with a short, comma-separated list of ingredients (no extra explanation). Example: "chickpeas, oats, almond milk".`
 
-        const resp = await axios.post('http://18.139.200.231:3000/api/gemini/generate', { prompt: promptText })
+        const resp = await axios.post(`${import.meta.env.VITE_API_URL}/api/gemini/generate`, { prompt: promptText })
         const resultText = resp?.data?.result || resp?.data || ''
 
         // Try to parse the returned text into ingredients
