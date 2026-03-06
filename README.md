@@ -47,7 +47,7 @@ Install FitU with npm <br>
 | **Dylan** | Project Manager, Full Stack Developer | Managed project timeline, assigned tickets, and hosted stand-up meetings. Developed and integrated **Firebase Auth**, **Spoonacular API**, and **Gemini API (AI Coach)** features. Debugged and refined main website features when necessary. |
 | **Junwei** | Frontend Developer | Led frontend design and developed the **Calendar feature**, ensuring smooth syncing with external calendar platforms. |
 | **Akash** | Frontend Developer | Co-led frontend design and built the **Virtual Gym**, implementing 3D navigation and interactive equipment exploration. |
-| **Justin** | Back End Developer, Video Editor | Implemented the **Workout Cart feature** and produced/edited FitU demo videos. |
+| **Juno (Me)** | Back End Developer, Video Editor | Implemented the **Workout Cart feature** and produced/edited FitU demo videos. |
 | **Yangxue** | Back End Developer, Content Creator | Created the **Profile Details** and **Macros & Fitness Tracking** features, and designed presentation slides. 
 | **Flash** | Backend Developer | Developed the **Workout Browser**, **Workout Vault**, and **Comment feature**. |
 
